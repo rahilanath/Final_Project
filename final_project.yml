@@ -24,9 +24,11 @@ dependencies:
 
 # install lime:
 # pip install lime
-# Also, you need to download 'stopwords' for nltk--the way I did it was
+# Also, you need to download 'stopwords', 'wordnet', 'punkt', 'averaged_perceptron_tagger' for nltk--the way I did it was
 # after activating this environment (conda activate Final_Project), 
 # python
 # >>>> import nltk
 # >>>> nltk.download('stopwords')
-
+# >>>> nltk.download('wordnet')
+# >>>> nltk.download('punkt')
+# >>>> nltk.download('averaged_perceptron_tagger')
